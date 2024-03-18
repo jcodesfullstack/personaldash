@@ -1,5 +1,20 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden; /* Ensures the entire viewport is used and prevents scrolling */
+}
+
 .App {
+  position: relative; /* Ensures proper stacking context without specifying z-index */
   text-align: center;
+  height: 100vh;
+  color: white;
+  background-color: #03071E;
+  background-image: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow: hidden;
 }
 
 .App-logo {
@@ -14,7 +29,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  position: relative; /* This ensures content is correctly positioned */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,10 +37,25 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  font-family: 'Orbitron', sans-serif;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+.component {
+  margin: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.component h2, .component p {
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
 }
 
 @keyframes App-logo-spin {
