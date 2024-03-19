@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/dashoboard/static/css/main.5bcfbf7a.css",
+    "main.js": "/dashoboard/static/js/main.d010bb14.js",
+    "static/js/453.96811671.chunk.js": "/dashoboard/static/js/453.96811671.chunk.js",
+    "index.html": "/dashoboard/index.html",
+    "main.5bcfbf7a.css.map": "/dashoboard/static/css/main.5bcfbf7a.css.map",
+    "main.d010bb14.js.map": "/dashoboard/static/js/main.d010bb14.js.map",
+    "453.96811671.chunk.js.map": "/dashoboard/static/js/453.96811671.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5bcfbf7a.css",
+    "static/js/main.d010bb14.js"
+  ]
+}
